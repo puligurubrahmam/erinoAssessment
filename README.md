@@ -19,9 +19,34 @@ run ```nodemon start```
 # To Start Frontend Server 
 
 run ```npm start```
+Access the application in your browser at ```http://localhost:3000```
+
+## API Endpoints
+
+#### Contacts Endpoints
+
+| Method | Endpoint     | Description                |
+| :-------- | :------- | :------------------------- |
+| `GET` | `/contacts` | Retrieve all contacts. |
+| `POST` | `/contacts` | Add a new contact. |
+| `GET` | `/contacts/:id` | Retrieve a contact by ID. |
+| `PUT` | `/contacts/:id` | Update a contact by ID. |
+| `DELETE` | `/contacts/:id` | Delete a contact by ID. |
+
+### Technologies Used
+#### Frontend:
+    React
+    React Router DOM
+#### Backend:
+    Node.js
+    SQLite
+    Express.js
+#### Others:
+    CSS for styling
+    React Icons (for icons)
 
 # Database Schema
-
+    ```Database Used :- Sqlite```
     UserId INTERGER PRIMARY KEY AUTO_INCREMENT,
     FirstName TEXT NOT NULL,
     LastName TEXT NOT NULL,
