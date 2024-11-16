@@ -47,7 +47,7 @@ Access the application in your browser at ```http://localhost:3000```
     React Icons (for icons)
 
 ## Database Schema
-    
+    CREATE TABLE contacts (
     UserId INTERGER PRIMARY KEY AUTO_INCREMENT,
     FirstName TEXT NOT NULL,
     LastName TEXT NOT NULL,
@@ -55,6 +55,7 @@ Access the application in your browser at ```http://localhost:3000```
     Phone TEXT UNIQUE NOT NULL,
     Company TEXT NOT NULL,
     JobTitle TEXT NOT NULL
+    );
 
 ## How Project Works
 
