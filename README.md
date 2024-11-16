@@ -58,20 +58,20 @@ Access the application in your browser at ```http://localhost:3000```
 
 ## How Project Works
 
-```It adds contacts only if it is unique.It Throws error that "Name already exists" when the user enters FirstName and LastName that is already exists in the database```
+It adds contacts only if it is unique.It Throws error that ```"Name already exists"``` when the user enters FirstName and LastName that is already exists in the database
 
-```If the email or phone number is already exists in the database which is entered by the user, It Throws the error        that "Email or Phone already exists"```
+If the email or phone number is already exists in the database which is entered by the user, It Throws the error that ```"Email or Phone already exists"```
 
-```If the User tries to add contact with some empty details then it throws the error that "Fill all the details"```
+If the User tries to add contact with some empty details then it throws the error that ```"Fill all the details"```
 
-```Contacts which you added will be displayed by clicking contacts on the top right corner```
+```Contacts``` which you added will be ```displayed``` by ```clicking contacts on the top right corner```
 
-```All contacts are displayed in a tabular format```
+```All contacts``` are displayed in a ```tabular format```
 
-```By clicking on  edit icon you can EDIT that Contact Details```
+```By clicking``` on  ```edit icon``` you can ```EDIT that Contact Details```
 
-```By clicking on delete icon you can DELETE that contact```
+```By clicking``` on ```delete icon``` you can ```DELETE that contact```
 
-```This is how you can add,view,update and delete the contacts```
+This is how you can ```add,view,update and delete``` the contacts
 
 
