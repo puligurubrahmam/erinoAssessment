@@ -43,7 +43,7 @@ Access the application in your browser at ```http://localhost:3000```
     SQLite
     Express.js
 #### Others:
-    CSS for styling
+    CSS (for styling)
     React Icons (for icons)
 
 ## Database Schema
@@ -57,7 +57,7 @@ Access the application in your browser at ```http://localhost:3000```
     JobTitle TEXT NOT NULL
     );
 
-## How Project Works
+## How Contact Management Works
 
 It adds contacts only if it is unique.It Throws error that ```"Name already exists"``` when the user enters FirstName and LastName that is already exists in the database
 
