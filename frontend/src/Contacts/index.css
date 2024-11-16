@@ -1,0 +1,81 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .navbar{
+    background-color:rgb(91, 108, 108);
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    width: 100%;
+  }
+  .card-container{
+    padding: 30px;
+    padding-top: 50px;
+    box-shadow: 1px 1px 0.5px 0.5px 1px #000000;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90vh;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  .items{
+    color: #000000;
+  }
+  .ul-container{
+    padding: 0px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+  }
+  .li-container{
+    font-family:'Courier New', Courier, monospace;
+    color: #ffffff;
+    font-weight: bold;
+    margin-right: 30px;
+  }
+ .table-style{
+    border: 1px;
+    border-collapse: collapse;
+     width: 100%;
+     max-width: 100%;
+     border-color: #000000;
+     margin: 0 auto;
+ }
+ th,td{
+    padding: 10px;
+ }
+ .edit-delete
+ {
+    display: flex;
+    justify-content: space-around;
+ }
+ .button-style{
+    margin: 5px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+ }
+ .icon{
+    height: 20px;
+    width: 20px;
+ }
+ @media  screen and (max-width:600px) {
+    .icon{
+        height: 10px;
+        width: 10px;
+    }
+    td{
+        font-size: 13px;
+        padding: 3px;
+    }
+    th{
+        padding: 3px;
+    }
+ }

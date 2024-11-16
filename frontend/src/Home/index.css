@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+  }
+  .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .form-container{
+    padding: 20px;
+    box-shadow: 1px 1px 0.5px 0.5px 1px #000000;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90vh;
+  }
+  form{
+    display: flex;
+    flex-direction: column;
+  }
+  input{
+    padding: 5px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    color: #000000;
+    outline: none;
+    font-size: 12px;
+  }
+  label{
+    color: #000000;
+    font-family: "Roboto";
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 13px;
+  }
+  .addButton{
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: rgb(91, 108, 108);
+    color: #ffffff;
+    font-family: "Roboto";
+    margin-top: 10px;
+  }
+  .navbar{
+    background-color:rgb(91, 108, 108);
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+  }
+  .logo-head{
+    color: #ffffff;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+  }
+  .ul-container{
+    padding: 0px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+  }
+  .li-container{
+    font-family:'Courier New', Courier, monospace;
+    color: #ffffff;
+    font-weight: bold;
+    margin-right: 30px;
+  }
+  .success
+  {
+    color: green;
+    font-size: 12px;
+    font-weight: bold;
+    margin: auto;
+    margin-top: 5px;
+  }
+  .error{
+    color: red;
+    font-size: 12px;
+    font-weight: bold;
+    margin: auto;
+    margin-top: 5px;
+  }
+  .link{
+    color: #ffffff;
+    text-decoration: none;
+  }
